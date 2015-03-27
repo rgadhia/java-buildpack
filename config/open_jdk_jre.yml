@@ -17,7 +17,7 @@
 # To go back to Java 7, permgen should be used instead of metaspace.  Please see the documentation for more detail.
 ---
 #repository_root: "{default.repository.root}/openjdk/{platform}/{architecture}"
-repository_root: "{aws.repository.root}"
+repository_root: "https://s3-us-west-2.amazonaws.com/java-buildpack-rgadhia"
 version: 1.6.0_+
 memory_sizes:
   # metaspace: 64m..
